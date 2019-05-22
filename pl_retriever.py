@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
-
 # packages
 from requests import get
 from bs4 import BeautifulSoup
@@ -28,10 +22,4 @@ with open('urls.txt', 'r') as u:
 for url in urls:
     url = url.replace('\n','')
     get_playlist(url)
-
-
-# In[ ]:
-
-
-
 
