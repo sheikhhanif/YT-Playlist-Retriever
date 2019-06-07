@@ -15,10 +15,11 @@ def get_playlist(url):
             file.write(li.text)
 
             
-
+# reading list of urls
 with open('urls.txt', 'r') as u:
     urls = u.readlines()
-    
+
+# looping over in each url and calling get_playlist function to extract videos titles
 for url in urls:
     url = url.replace('\n','')
     get_playlist(url)
