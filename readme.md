@@ -1,5 +1,5 @@
 ## About 
-An automated way to extract titles from videos
+An automated way to extract titles from YouTube playlist
 
 ## Usage
 - put links of playlists in the urls.txt
